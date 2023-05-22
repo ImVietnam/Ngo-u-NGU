@@ -5,10 +5,10 @@ submit.onclick = function(){
   let name = document.getElementById("in").value;
   let out = document.getElementById("out");
   if(btn1 == true){
-    out = out.innerHTML = `Hế lô ông già ${name} nghèo khổ giữa trời đông cô đơn`
+    out = out.innerHTML = `Hé lô ông già ${name} nghèo khổ giữa trời đông cô đơn`
   }
   if(btn2 == true){
-    out = out.innerHTML = `Hế lô bà già ${name} nghèo khổ giữa trời đông cô đơn`
+    out = out.innerHTML = `Hé lô bà già ${name} nghèo khổ giữa trời đông cô đơn`
   }
   if(btn1 == false && btn2 == false){
     window.alert("Bạn phải chọn 1 trong 2 lựa chọn")
